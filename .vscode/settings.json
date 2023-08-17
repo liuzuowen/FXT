@@ -1,5 +1,23 @@
 {
     "files.associations": {
-        "test.C": "cpp"
+        "acceptance_diffEnergy.C": "cpp",
+        "acceptance_piK0slam.C": "cpp",
+        "v1v2_y.C": "cpp",
+        "draw_v1v2VSy.C": "cpp",
+        "v1Slope_FXTEnergy.C": "cpp",
+        "Int_v2_FXTEnergy.C": "cpp",
+        "v1Slope_FXTEnergy copy.C": "cpp",
+        "draw_v1v2VSenergy.C": "cpp",
+        "v1SlopeVSpT_diffEnergy.C": "cpp",
+        "draw_v1SlopeVSpT.C": "cpp",
+        "fig1_acceptance.C": "cpp",
+        "fig2_v1v2VSy.C": "cpp",
+        "fig3_v1v2VSenergy.C": "cpp",
+        "fig4_v1SlopeVSpT.C": "cpp",
+        "fig1_acceptance copy.C": "cpp",
+        "test_acceptance.C": "cpp",
+        "barlow_check.C": "cpp",
+        "fig4_v1SlopeVSpT copy.C": "cpp",
+        "test_forQM_v1SlopeVSpT.C": "cpp"
     }
 }
