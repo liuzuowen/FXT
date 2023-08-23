@@ -33,21 +33,21 @@ void test_forQM_v1SlopeVSpT()
                 g_v1Slope_pT_sys[i][1] = new TGraphErrors(Form("DataFile/3GeV/pionm_v1Slope_pT_cent1_sysErr.txt"), "%lg %lg %lg %lg");
                 g_v1Slope_pT_sys[i][2] = new TGraphErrors(Form("DataFile/3GeV/K0s_Slope_9pT_cent1_sysErr.txt"), "%lg %lg %lg %lg");
 
-                g_v1Slope_pT_cas[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent0_cas.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent0_cas.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent0_cas.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent1_cas.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent1_cas.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent1_cas.txt"), "%lg %lg %lg");
 
-                g_v1Slope_pT_cas_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent0_cas_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent0_cas_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent0_cas_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent1_cas_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent1_cas_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent1_cas_rmSpec.txt"), "%lg %lg %lg");
 
-                g_v1Slope_pT_mf[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent0_RQMDrmf.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent0_RQMDrmf.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent0_RQMDrmf.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent1_RQMDrmf.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent1_RQMDrmf.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent1_RQMDrmf.txt"), "%lg %lg %lg");
 
-                g_v1Slope_pT_mf_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent0_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent0_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent0_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pip_v1Slope_pT_Cent1_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_pim_v1Slope_pT_Cent1_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.0GeV_K0_v1Slope_pT_Cent1_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
 
 
             }
@@ -83,21 +83,21 @@ void test_forQM_v1SlopeVSpT()
                 g_v1Slope_pT_sys[i][2] = new TGraphErrors(Form("DataFile/3p9GeV/ks0_Slope_9pT_cent1_sysErr.txt"), "%lg %lg %lg %lg");
 
 
-                g_v1Slope_pT_cas[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent0_cas.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent0_cas.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent0_cas.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent1_cas.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent1_cas.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent1_cas.txt"), "%lg %lg %lg");
 
-                g_v1Slope_pT_cas_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent0_cas_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent0_cas_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_cas_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent0_cas_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent1_cas_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent1_cas_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_cas_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent1_cas_rmSpec.txt"), "%lg %lg %lg");
 
-                g_v1Slope_pT_mf[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent0_RQMDrmf.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent0_RQMDrmf.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent0_RQMDrmf.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent1_RQMDrmf.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent1_RQMDrmf.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent1_RQMDrmf.txt"), "%lg %lg %lg");
 
-                g_v1Slope_pT_mf_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent0_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent0_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
-                g_v1Slope_pT_mf_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent0_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf_rmSpec[i][0] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pip_v1Slope_pT_Cent1_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf_rmSpec[i][1] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_pim_v1Slope_pT_Cent1_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
+                g_v1Slope_pT_mf_rmSpec[i][2] = new TGraphErrors(Form("/Users/liuzw/WorkSpace/3_5GeV/Model/DataFile/3.9GeV_K0_v1Slope_pT_Cent1_RQMDrmf_rmSpec.txt"), "%lg %lg %lg");
 
             }
         }
