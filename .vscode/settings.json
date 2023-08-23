@@ -18,6 +18,7 @@
         "test_acceptance.C": "cpp",
         "barlow_check.C": "cpp",
         "fig4_v1SlopeVSpT copy.C": "cpp",
-        "test_forQM_v1SlopeVSpT.C": "cpp"
+        "test_forQM_v1SlopeVSpT.C": "cpp",
+        "test.C": "cpp"
     }
 }
